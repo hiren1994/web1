@@ -1,3 +1,3 @@
 FROM 9904660268/test:first
-Os: windows
-Destination: c:/inetpub/wwwroot
+RUN powershell -NoProfile -Command \
+	  xcopy hiren1994/web1 c:\inetpub\wwwroot
