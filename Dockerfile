@@ -1,2 +1,2 @@
-FROM 9904660268/test:latest
+FROM 9904660268/test
 
